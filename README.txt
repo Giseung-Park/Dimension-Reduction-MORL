@@ -10,6 +10,9 @@ sudo apt-get install sumo sumo-tools sumo-doc
 echo 'export SUMO_HOME="/usr/share/sumo"' >> ~/.bashrc
 source ~/.bashrc
 
+(Note. Use sumo version 1.18.0)
+(cf. https://sumo.dlr.de/docs/Installing/index.html)
+
 pip install torch==2.1.0
 
 conda activate morl_base_d
